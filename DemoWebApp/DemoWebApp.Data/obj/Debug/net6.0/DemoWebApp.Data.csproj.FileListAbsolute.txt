@@ -1,0 +1,15 @@
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\bin\Debug\net6.0\DemoWebApp.Data.deps.json
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\bin\Debug\net6.0\DemoWebApp.Data.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\bin\Debug\net6.0\DemoWebApp.Data.pdb
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\bin\Debug\net6.0\DemoWebApp.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\bin\Debug\net6.0\DemoWebApp.pdb
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.csproj.AssemblyReference.cache
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.AssemblyInfoInputs.cache
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.AssemblyInfo.cs
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.csproj.CoreCompileInputs.cache
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebA.3D864A28.Up2Date
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\refint\DemoWebApp.Data.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\DemoWebApp.Data.pdb
+F:\OPTOMED\DemoWebApp\DemoWebApp.Data\obj\Debug\net6.0\ref\DemoWebApp.Data.dll

@@ -1,0 +1,285 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 6,
+    "passes": 5,
+    "pending": 0,
+    "failures": 1,
+    "testsRegistered": 6,
+    "passPercent": 83.33333333333333,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-10-29T07:56:35.795Z",
+    "end": "2024-10-29T07:57:19.278Z",
+    "duration": 43483
+  },
+  "results": [
+    {
+      "uuid": "2e31730a-b346-490e-9f1c-963dfc8614c8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\CreatPatient.cy.js",
+      "file": "cypress\\e2e\\CreatPatient.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "488a8573-2bf7-4219-a0c2-04727a653a27",
+          "title": "Creating Patient Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Creating Patient",
+              "fullTitle": "Creating Patient Test Case Creating Patient",
+              "timedOut": null,
+              "duration": 3895,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();\ncy.get(':nth-child(2) > .nav-link').click();\ncy.contains('Create New').click();\nformfiller.enterGivenName('Prince');\nformfiller.enterFamilyName('Okumo');\nformfiller.enterFurtherGivenNames('Jr');\nformfiller.enterAddress('leppavara');\nformfiller.ClickCreateButton();",
+              "err": {},
+              "uuid": "5df0dabc-1a6d-4474-8b86-7cbf2fa59110",
+              "parentUUID": "488a8573-2bf7-4219-a0c2-04727a653a27",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Back to list Test",
+              "fullTitle": "Creating Patient Test Case Back to list Test",
+              "timedOut": null,
+              "duration": 7043,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();\ncy.get(':nth-child(2) > .nav-link').click();\ncy.contains('Create New').click();\ncy.contains('Back to list').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Back to list' but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Back to list' but never did.\n    at Context.eval (webpack://automated/./cypress/e2e/CreatPatient.cy.js:37:7)",
+                "diff": null
+              },
+              "uuid": "91fa6cee-3d03-4bed-a59b-d5ab92dd8ff4",
+              "parentUUID": "488a8573-2bf7-4219-a0c2-04727a653a27",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5df0dabc-1a6d-4474-8b86-7cbf2fa59110"
+          ],
+          "failures": [
+            "91fa6cee-3d03-4bed-a59b-d5ab92dd8ff4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 10938,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "19ea2dc7-785b-403b-bfc9-cd8c3cbfa124",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LoginTests.cy.js",
+      "file": "cypress\\e2e\\LoginTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3c543f6a-a390-4fbc-9462-051886aa17ab",
+          "title": "All login test list",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login test with valid Credentials",
+              "fullTitle": "All login test list Login test with valid Credentials",
+              "timedOut": null,
+              "duration": 2851,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();",
+              "err": {},
+              "uuid": "db1a3445-32dd-40f0-8c97-f1edbe086f6f",
+              "parentUUID": "3c543f6a-a390-4fbc-9462-051886aa17ab",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login test with invalid Credentials",
+              "fullTitle": "All login test list Login test with invalid Credentials",
+              "timedOut": null,
+              "duration": 1241,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demothet');\nloginPage.ClickLoginButton();\ncy.contains('Incorrect username or password.');",
+              "err": {},
+              "uuid": "4e2074d1-640a-4f59-850c-890e71385aee",
+              "parentUUID": "3c543f6a-a390-4fbc-9462-051886aa17ab",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login test with No Credentials",
+              "fullTitle": "All login test list Login test with No Credentials",
+              "timedOut": null,
+              "duration": 1229,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.ClickLoginButton();\ncy.contains('You must provide a username and a password.');",
+              "err": {},
+              "uuid": "d2baafd3-c02c-4acb-b6d5-d99b3255a5c4",
+              "parentUUID": "3c543f6a-a390-4fbc-9462-051886aa17ab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "db1a3445-32dd-40f0-8c97-f1edbe086f6f",
+            "4e2074d1-640a-4f59-850c-890e71385aee",
+            "d2baafd3-c02c-4acb-b6d5-d99b3255a5c4"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5321,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "48114855-063b-44ac-bf8a-1fc369ad789c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\StartApp.cy.js",
+      "file": "cypress\\e2e\\StartApp.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5ae5dd77-633f-47f3-8d0a-3fe37006da36",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Has Application Started",
+              "fullTitle": "template spec Has Application Started",
+              "timedOut": null,
+              "duration": 813,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('Checking if application has started');\ncy.visit('http://localhost:5044/Home/Login');",
+              "err": {},
+              "uuid": "7780d8dd-ed2b-4e89-a2c4-d6dd30071fd1",
+              "parentUUID": "5ae5dd77-633f-47f3-8d0a-3fe37006da36",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7780d8dd-ed2b-4e89-a2c4-d6dd30071fd1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 813,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-[datetime]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportDir": "cypress/mochawesome-report",
+        "reportFilename": "[name]-[datetime]",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

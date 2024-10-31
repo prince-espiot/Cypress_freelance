@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\OPTOMED\\DemoWebAppv2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\patient\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\patient\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|f:\\optomed\\demowebappv2\\demowebapp.data\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|solutionrelative:demowebapp.data\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|f:\\optomed\\demowebappv2\\demowebapp.api\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|solutionrelative:demowebapp.api\\patientmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|f:\\optomed\\demowebappv2\\demowebapp.api\\identityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|solutionrelative:demowebapp.api\\identityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|f:\\optomed\\demowebappv2\\demowebapp.api\\appusercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6B7AEE2-99D9-4A3A-830A-42A93F375B48}|DemoWebApp.Api\\DemoWebApp.Api.csproj|solutionrelative:demowebapp.api\\appusercredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|f:\\optomed\\demowebappv2\\demowebapp.data\\pseudodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|solutionrelative:demowebapp.data\\pseudodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|f:\\optomed\\demowebappv2\\demowebapp.data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|solutionrelative:demowebapp.data\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|f:\\optomed\\demowebappv2\\demowebapp.data\\administrativegender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACD29944-6E69-4757-98D9-061C2B4A4ECB}|DemoWebApp.Data\\DemoWebApp.Data.csproj|solutionrelative:demowebapp.data\\administrativegender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|f:\\optomed\\demowebappv2\\demowebapp.client\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A32B7693-00C5-4FAA-A190-865A025FD250}|DemoWebApp.Client\\DemoWebApp.Client.csproj|solutionrelative:demowebapp.client\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Controllers\\PatientController.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "DemoWebApp.Client\\Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T08:30:49.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientManager.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\PatientManager.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Api\\PatientManager.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\PatientManager.cs",
+              "RelativeToolTip": "DemoWebApp.Api\\PatientManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T19:33:26.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUserCredentials.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\AppUserCredentials.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Api\\AppUserCredentials.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\AppUserCredentials.cs",
+              "RelativeToolTip": "DemoWebApp.Api\\AppUserCredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T19:33:03.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentityProvider.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\IdentityProvider.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Api\\IdentityProvider.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Api\\IdentityProvider.cs",
+              "RelativeToolTip": "DemoWebApp.Api\\IdentityProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T19:26:18.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Patient\\Edit.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Edit.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Patient\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:27:03.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Index.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Patient\\Index.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Index.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Patient\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T18:26:12.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PseudoDbContext.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\PseudoDbContext.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Data\\PseudoDbContext.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\PseudoDbContext.cs",
+              "RelativeToolTip": "DemoWebApp.Data\\PseudoDbContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:45:22.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\Patient.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Data\\Patient.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\Patient.cs",
+              "RelativeToolTip": "DemoWebApp.Data\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:45:19.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\AppUser.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Data\\AppUser.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\AppUser.cs",
+              "RelativeToolTip": "DemoWebApp.Data\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:45:16.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdministrativeGender.cs",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\AdministrativeGender.cs",
+              "RelativeDocumentMoniker": "DemoWebApp.Data\\AdministrativeGender.cs",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Data\\AdministrativeGender.cs",
+              "RelativeToolTip": "DemoWebApp.Data\\AdministrativeGender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T16:45:11.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:32:59.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:32:56.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Patient\\Create.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Patient\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:23:12.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DemoWebApp.Client\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\OPTOMED\\DemoWebAppv2\\DemoWebApp.Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DemoWebApp.Client\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T16:20:08.88Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

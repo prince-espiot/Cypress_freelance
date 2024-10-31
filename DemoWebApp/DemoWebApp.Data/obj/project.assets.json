@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DemoWebApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DemoWebApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DemoWebApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoWebApp/1.0.0": {
+      "type": "project",
+      "path": "../DemoWebApp/DemoWebApp.csproj",
+      "msbuildProject": "../DemoWebApp/DemoWebApp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DemoWebApp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\OPTOMED\\DemoWebApp\\DemoWebApp.Data\\DemoWebApp.Data.csproj",
+      "projectName": "DemoWebApp.Data",
+      "projectPath": "F:\\OPTOMED\\DemoWebApp\\DemoWebApp.Data\\DemoWebApp.Data.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "F:\\OPTOMED\\DemoWebApp\\DemoWebApp.Data\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "F:\\OPTOMED\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj": {
+              "projectPath": "F:\\OPTOMED\\DemoWebApp\\DemoWebApp\\DemoWebApp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

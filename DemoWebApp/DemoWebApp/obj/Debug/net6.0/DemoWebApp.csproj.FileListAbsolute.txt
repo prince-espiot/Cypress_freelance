@@ -1,0 +1,11 @@
+F:\OPTOMED\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.deps.json
+F:\OPTOMED\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp\bin\Debug\net6.0\DemoWebApp.pdb
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.GeneratedMSBuildEditorConfig.editorconfig
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.AssemblyInfoInputs.cache
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.AssemblyInfo.cs
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.csproj.CoreCompileInputs.cache
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\refint\DemoWebApp.dll
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\DemoWebApp.pdb
+F:\OPTOMED\DemoWebApp\DemoWebApp\obj\Debug\net6.0\ref\DemoWebApp.dll

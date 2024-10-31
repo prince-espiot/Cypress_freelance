@@ -1,0 +1,17 @@
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.Api.deps.json
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.Api.dll
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.Api.pdb
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.Data.dll
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.dll
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.Data.pdb
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\bin\Debug\net6.0\DemoWebApp.pdb
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.csproj.AssemblyReference.cache
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.GeneratedMSBuildEditorConfig.editorconfig
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.AssemblyInfoInputs.cache
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.AssemblyInfo.cs
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.csproj.CoreCompileInputs.cache
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebA.C8DF219B.Up2Date
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.dll
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\refint\DemoWebApp.Api.dll
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\DemoWebApp.Api.pdb
+F:\OPTOMED\DemoWebAppv2\DemoWebApp.Api\obj\Debug\net6.0\ref\DemoWebApp.Api.dll

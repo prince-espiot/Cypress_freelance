@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DemoWebApp.Api/1.0.0": {
+        "dependencies": {
+          "DemoWebApp.Data": "1.0.0"
+        },
+        "runtime": {
+          "DemoWebApp.Api.dll": {}
+        }
+      },
+      "DemoWebApp/1.0.0": {
+        "runtime": {
+          "DemoWebApp.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DemoWebApp.Data/1.0.0": {
+        "dependencies": {
+          "DemoWebApp": "1.0.0"
+        },
+        "runtime": {
+          "DemoWebApp.Data.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoWebApp.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DemoWebApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DemoWebApp.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

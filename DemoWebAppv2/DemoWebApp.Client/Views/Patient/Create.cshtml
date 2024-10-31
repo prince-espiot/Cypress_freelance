@@ -1,0 +1,64 @@
+﻿@model DemoWebApp.Data.Patient
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Patient</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="GivenName" class="control-label"></label>
+                <input asp-for="GivenName" class="form-control" />
+                <span asp-validation-for="GivenName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FamilyName" class="control-label"></label>
+                <input asp-for="FamilyName" class="form-control" />
+                <span asp-validation-for="FamilyName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FurtherGivenNames" class="control-label"></label>
+                <input asp-for="FurtherGivenNames" class="form-control" />
+                <span asp-validation-for="FurtherGivenNames" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input asp-for="DateOfBirth" class="form-control" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>
+            <div>
+                @Html.LabelFor(x => x.AdministrativeGender)
+                @Html.DropDownListFor(
+                    x => x.AdministrativeGender,
+                    new[]
+                    {
+                        new SelectListItem("Male", "Male"),
+                        new SelectListItem("Female", "Female"),
+                        new SelectListItem("Other", "Other")
+                    })
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Inex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

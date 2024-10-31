@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-10-29T07:56:35.795Z",
+    "end": "2024-10-29T07:56:51.752Z",
+    "duration": 15957,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2e31730a-b346-490e-9f1c-963dfc8614c8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\CreatPatient.cy.js",
+      "file": "cypress\\e2e\\CreatPatient.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "488a8573-2bf7-4219-a0c2-04727a653a27",
+          "title": "Creating Patient Test Case",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Creating Patient",
+              "fullTitle": "Creating Patient Test Case Creating Patient",
+              "timedOut": null,
+              "duration": 3895,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();\ncy.get(':nth-child(2) > .nav-link').click();\ncy.contains('Create New').click();\nformfiller.enterGivenName('Prince');\nformfiller.enterFamilyName('Okumo');\nformfiller.enterFurtherGivenNames('Jr');\nformfiller.enterAddress('leppavara');\nformfiller.ClickCreateButton();",
+              "err": {},
+              "uuid": "5df0dabc-1a6d-4474-8b86-7cbf2fa59110",
+              "parentUUID": "488a8573-2bf7-4219-a0c2-04727a653a27",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Back to list Test",
+              "fullTitle": "Creating Patient Test Case Back to list Test",
+              "timedOut": null,
+              "duration": 7043,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();\ncy.get(':nth-child(2) > .nav-link').click();\ncy.contains('Create New').click();\ncy.contains('Back to list').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Back to list' but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Back to list' but never did.\n    at Context.eval (webpack://automated/./cypress/e2e/CreatPatient.cy.js:37:7)",
+                "diff": null
+              },
+              "uuid": "91fa6cee-3d03-4bed-a59b-d5ab92dd8ff4",
+              "parentUUID": "488a8573-2bf7-4219-a0c2-04727a653a27",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5df0dabc-1a6d-4474-8b86-7cbf2fa59110"
+          ],
+          "failures": [
+            "91fa6cee-3d03-4bed-a59b-d5ab92dd8ff4"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 10938,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-[datetime]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportDir": "cypress/mochawesome-report",
+        "reportFilename": "[name]-[datetime]",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

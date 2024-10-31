@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (User.Identity?.IsAuthenticated != true)
+{
+    <div>
+        Please log in to the application.
+    </div>
+}
+else
+{
+    <h2>Welcome!</h2>
+    <div>
+        <p>You are now logged in as @User.Identity.Name.</p>
+        <p>Please select a tool from the toolbar.</p>
+    </div>
+}

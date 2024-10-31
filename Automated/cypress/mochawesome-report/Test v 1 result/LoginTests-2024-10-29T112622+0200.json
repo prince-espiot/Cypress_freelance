@@ -1,0 +1,150 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-10-29T09:26:20.746Z",
+    "end": "2024-10-29T09:26:22.078Z",
+    "duration": 1332,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 2,
+    "hasSkipped": true
+  },
+  "results": [
+    {
+      "uuid": "9e3f4c88-f2df-4bf2-b35c-fd741189f491",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LoginTests.cy.js",
+      "file": "cypress\\e2e\\LoginTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e1a8c45f-3bfb-4c98-bdef-8326b1d271da",
+          "title": "All login test list",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login test with valid Credentials",
+              "fullTitle": "All login test list Login test with valid Credentials",
+              "timedOut": null,
+              "duration": 1119,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();",
+              "err": {
+                "message": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://localhost:5044/Home/Login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 127.0.0.1:5044\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `All login test list`",
+                "estack": "CypressError: `cy.visit()` failed trying to load:\n\nhttp://localhost:5044/Home/Login\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: connect ECONNREFUSED 127.0.0.1:5044\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n\nBecause this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `All login test list`\n    at <unknown> (http://localhost:56758/__cypress/runner/cypress_runner.js:131450:74)\n    at visitFailedByErr (http://localhost:56758/__cypress/runner/cypress_runner.js:130849:12)\n    at <unknown> (http://localhost:56758/__cypress/runner/cypress_runner.js:131449:11)\n    at tryCatcher (http://localhost:56758/__cypress/runner/cypress_runner.js:1807:23)\n    at Promise._settlePromiseFromHandler (http://localhost:56758/__cypress/runner/cypress_runner.js:1519:31)\n    at Promise._settlePromise (http://localhost:56758/__cypress/runner/cypress_runner.js:1576:18)\n    at Promise._settlePromise0 (http://localhost:56758/__cypress/runner/cypress_runner.js:1621:10)\n    at Promise._settlePromises (http://localhost:56758/__cypress/runner/cypress_runner.js:1697:18)\n    at _drainQueueStep (http://localhost:56758/__cypress/runner/cypress_runner.js:2407:12)\n    at _drainQueue (http://localhost:56758/__cypress/runner/cypress_runner.js:2400:9)\n    at Async._drainQueues (http://localhost:56758/__cypress/runner/cypress_runner.js:2416:5)\n    at Async.drainQueues (http://localhost:56758/__cypress/runner/cypress_runner.js:2286:14)\nFrom Your Spec Code:\n    at Context.eval (webpack://automated/./cypress/e2e/LoginTests.cy.js:8:11)\n\nFrom Node.js Internals:\n  Error: connect ECONNREFUSED 127.0.0.1:5044\n      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)",
+                "diff": null
+              },
+              "uuid": "2bd9497e-c3f4-4104-b644-eafe7a746538",
+              "parentUUID": "e1a8c45f-3bfb-4c98-bdef-8326b1d271da",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login test with invalid Credentials",
+              "fullTitle": "All login test list Login test with invalid Credentials",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demothet');\nloginPage.ClickLoginButton();\ncy.contains('Incorrect username or password.');",
+              "err": {},
+              "uuid": "a8f6e3fa-8cfa-4f94-a75a-ce933c0655fc",
+              "parentUUID": "e1a8c45f-3bfb-4c98-bdef-8326b1d271da",
+              "isHook": false,
+              "skipped": true
+            },
+            {
+              "title": "Login test with No Credentials",
+              "fullTitle": "All login test list Login test with No Credentials",
+              "timedOut": null,
+              "duration": 0,
+              "state": "skipped",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.ClickLoginButton();\ncy.contains('You must provide a username and a password.');",
+              "err": {},
+              "uuid": "32ae9bd7-1503-420d-84e3-12a5cb2dcd06",
+              "parentUUID": "e1a8c45f-3bfb-4c98-bdef-8326b1d271da",
+              "isHook": false,
+              "skipped": true
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "2bd9497e-c3f4-4104-b644-eafe7a746538"
+          ],
+          "pending": [],
+          "skipped": [
+            "a8f6e3fa-8cfa-4f94-a75a-ce933c0655fc",
+            "32ae9bd7-1503-420d-84e3-12a5cb2dcd06"
+          ],
+          "duration": 1119,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-[datetime]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportDir": "cypress/mochawesome-report",
+        "reportFilename": "[name]-[datetime]",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

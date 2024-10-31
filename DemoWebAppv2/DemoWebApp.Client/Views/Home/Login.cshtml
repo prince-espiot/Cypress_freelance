@@ -1,0 +1,23 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!-- TODO: Cause bugs in this view so that e.g. the incorrect label is shown. -->
+
+@Html.ValidationSummary()
+
+<form method="post">
+    <div>
+        @Html.LabelFor(x => x.Username)
+        @Html.TextBoxFor(x => x.Username)
+    </div>
+    <div>
+        @Html.LabelFor(x => x.Password)
+        @Html.PasswordFor(x => x.Password)
+    </div>
+    <div>
+        <button type="submit">Login</button>
+    </div>
+</form>

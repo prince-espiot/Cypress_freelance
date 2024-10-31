@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-10-29T07:59:28.508Z",
+    "end": "2024-10-29T07:59:35.742Z",
+    "duration": 7234,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ecdc4e8b-0a7c-405d-abce-5e14d31adc8f",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LoginTests.cy.js",
+      "file": "cypress\\e2e\\LoginTests.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b493dd8e-8b9e-4d09-9bba-288db9c1054e",
+          "title": "All login test list",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login test with valid Credentials",
+              "fullTitle": "All login test list Login test with valid Credentials",
+              "timedOut": null,
+              "duration": 1333,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demo');\nloginPage.ClickLoginButton();",
+              "err": {},
+              "uuid": "45eee465-50a0-4af2-b05e-10c3f4178f21",
+              "parentUUID": "b493dd8e-8b9e-4d09-9bba-288db9c1054e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login test with invalid Credentials",
+              "fullTitle": "All login test list Login test with invalid Credentials",
+              "timedOut": null,
+              "duration": 1344,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.enterUsername('demo');\nloginPage.enterPassword('demothet');\nloginPage.ClickLoginButton();\ncy.contains('Incorrect username or password.');",
+              "err": {},
+              "uuid": "32cfad94-bcae-40df-9ca3-73c524a18052",
+              "parentUUID": "b493dd8e-8b9e-4d09-9bba-288db9c1054e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login test with No Credentials",
+              "fullTitle": "All login test list Login test with No Credentials",
+              "timedOut": null,
+              "duration": 484,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "loginPage.ClickLoginButton();\ncy.contains('You must provide a username and a password.');",
+              "err": {},
+              "uuid": "4f25c60e-7b36-4709-95fd-6c317055a730",
+              "parentUUID": "b493dd8e-8b9e-4d09-9bba-288db9c1054e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "45eee465-50a0-4af2-b05e-10c3f4178f21",
+            "32cfad94-bcae-40df-9ca3-73c524a18052",
+            "4f25c60e-7b36-4709-95fd-6c317055a730"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3161,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[name]-[datetime]",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportDir": "cypress/mochawesome-report",
+        "reportFilename": "[name]-[datetime]",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
